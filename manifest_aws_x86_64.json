@@ -1,0 +1,32 @@
+{
+  "builds": [
+    {
+      "name": "spacelift",
+      "builder_type": "amazon-ebs",
+      "build_time": 1728046216,
+      "files": null,
+      "artifact_id": "eu-central-2:ami-0ac13c98cf90b937c",
+      "packer_run_uuid": "8be7dabc-2494-26ee-318b-f13d85c5a37e",
+      "custom_data": null
+    },
+    {
+      "name": "spacelift",
+      "builder_type": "amazon-ebs",
+      "build_time": 1728048148,
+      "files": null,
+      "artifact_id": "eu-central-2:ami-03b581a54ccfded85",
+      "packer_run_uuid": "8f93092e-67f7-b30e-7cb2-38eaba6f7c48",
+      "custom_data": null
+    },
+    {
+      "name": "spacelift",
+      "builder_type": "amazon-ebs",
+      "build_time": 1728048825,
+      "files": null,
+      "artifact_id": "eu-central-2:ami-0b79b23069f93d7bd",
+      "packer_run_uuid": "36a5dedf-fa9e-da20-7458-f35bcabfd3c9",
+      "custom_data": null
+    }
+  ],
+  "last_run_uuid": "36a5dedf-fa9e-da20-7458-f35bcabfd3c9"
+}

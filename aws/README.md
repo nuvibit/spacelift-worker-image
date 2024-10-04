@@ -53,11 +53,17 @@ output "ami" {
 }
 ```
 
-### Build your own AMI
 
+### Search source AMI
+```shell
+aws ec2 describe-images --owners amazon --filters "Name=root-device-type,Values=ebs" "Name=virtualization-type,Values=hvm" "Name=name,Values=al2023-ami-minimal-*-kernel-6.1-arm64" --region "eu-central-2"
+```
+
+### Build your own AMI
 ```shell
 git clone git@github.com:spacelift-io/spacelift-worker-image.git
 cd spacelift-worker-image
+packer init aws.pkr.hcl
 packer build aws.pkr.hcl
 ```
 
