@@ -8,7 +8,52 @@
       "artifact_id": "eu-central-2:ami-0a14df0c03a6854f7",
       "packer_run_uuid": "3a966372-f7b8-5b8c-04b8-9983f01b0104",
       "custom_data": null
+    },
+    {
+      "name": "spacelift",
+      "builder_type": "amazon-ebs",
+      "build_time": 1732719565,
+      "files": null,
+      "artifact_id": "eu-central-2:ami-0ccea08ac61588ee7",
+      "packer_run_uuid": "e3eefbb2-a76c-2d3a-08ab-ccb3a07fb0ff",
+      "custom_data": null
+    },
+    {
+      "name": "spacelift",
+      "builder_type": "amazon-ebs",
+      "build_time": 1732720219,
+      "files": null,
+      "artifact_id": "eu-central-2:ami-06ddc2726061c5018",
+      "packer_run_uuid": "35791143-e21f-c6db-bba3-490040669204",
+      "custom_data": null
+    },
+    {
+      "name": "spacelift",
+      "builder_type": "amazon-ebs",
+      "build_time": 1732720275,
+      "files": null,
+      "artifact_id": "eu-central-2:ami-05615c0d853245a73",
+      "packer_run_uuid": "273fd908-4cc2-b55a-08d1-665955ef4921",
+      "custom_data": null
+    },
+    {
+      "name": "spacelift",
+      "builder_type": "amazon-ebs",
+      "build_time": 1732720320,
+      "files": null,
+      "artifact_id": "eu-central-2:ami-0db32cefa0c41635c",
+      "packer_run_uuid": "f64ab145-dd47-48f5-9177-b38158e65b08",
+      "custom_data": null
+    },
+    {
+      "name": "spacelift",
+      "builder_type": "amazon-ebs",
+      "build_time": 1732720325,
+      "files": null,
+      "artifact_id": "eu-central-2:ami-04f46b939389e4a5f",
+      "packer_run_uuid": "359461ba-9b0b-d975-fa3a-7a4054002702",
+      "custom_data": null
     }
   ],
-  "last_run_uuid": "3a966372-f7b8-5b8c-04b8-9983f01b0104"
+  "last_run_uuid": "359461ba-9b0b-d975-fa3a-7a4054002702"
 }
