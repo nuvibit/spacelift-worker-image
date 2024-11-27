@@ -43,7 +43,7 @@ variable "ami_regions" {
 
 variable "source_ami_architecture" {
   type = string
-  default = "x86_64"
+  default = "arm64"  # "x86_64"
 }
 
 variable "source_ami_owners" {
@@ -63,7 +63,7 @@ variable "ami_groups" {
 
 variable "instance_type" {
   type    = string
-  default = "t3.micro"
+  default = "t4g.small" # "t3.small"
 }
 
 variable "encrypt_boot" {

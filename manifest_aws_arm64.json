@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "name": "spacelift",
+      "builder_type": "amazon-ebs",
+      "build_time": 1732706894,
+      "files": null,
+      "artifact_id": "eu-central-2:ami-0a14df0c03a6854f7",
+      "packer_run_uuid": "3a966372-f7b8-5b8c-04b8-9983f01b0104",
+      "custom_data": null
+    }
+  ],
+  "last_run_uuid": "3a966372-f7b8-5b8c-04b8-9983f01b0104"
+}
